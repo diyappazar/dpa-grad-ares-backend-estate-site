@@ -1,0 +1,76 @@
+CRITICAL - 2022-10-25 10:27:02 --> Invalid file: welcome_message.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 10:27:33 --> Invalid file: welcome_message.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('welcome_message.php')
+ 2 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('welcome_message', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('welcome_message')
+ 4 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-10-25 10:34:50 --> Undefined property: CodeIgniter\View\View::$subTitle
+in APPPATH\Views\env\header.php on line 5.
+ 1 APPPATH\Views\env\header.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$subTitle', 'APPPATH\\Views\\env\\header.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\env\\header.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('/env/header', [], true)
+ 5 APPPATH\Views\home.php(4): view('/env/header')
+ 6 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 7 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home', [], true)
+ 9 APPPATH\Controllers\Home.php(10): view('home', [...])
+10 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->index()
+11 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+12 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-10-25 10:49:09 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'ares_test' in C:\xampp8\htdocs\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp8\htdocs\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'ares_test', 3306, '', 0)
+#1 C:\xampp8\htdocs\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp8\htdocs\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp8\htdocs\app\Views\home.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#4 C:\xampp8\htdocs\system\View\View.php(213): include('C:\\xampp8\\htdoc...')
+#5 C:\xampp8\htdocs\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp8\htdocs\system\Common.php(1142): CodeIgniter\View\View->render('home', Array, true)
+#7 C:\xampp8\htdocs\app\Controllers\Home.php(10): view('home', Array)
+#8 C:\xampp8\htdocs\system\CodeIgniter.php(902): App\Controllers\Home->index()
+#9 C:\xampp8\htdocs\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp8\htdocs\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp8\htdocs\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'ares_test' in C:\xampp8\htdocs\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp8\htdocs\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp8\htdocs\system\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp8\htdocs\app\Views\home.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM a...')
+#3 C:\xampp8\htdocs\system\View\View.php(213): include('C:\\xampp8\\htdoc...')
+#4 C:\xampp8\htdocs\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp8\htdocs\system\Common.php(1142): CodeIgniter\View\View->render('home', Array, true)
+#6 C:\xampp8\htdocs\app\Controllers\Home.php(10): view('home', Array)
+#7 C:\xampp8\htdocs\system\CodeIgniter.php(902): App\Controllers\Home->index()
+#8 C:\xampp8\htdocs\system\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp8\htdocs\system\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp8\htdocs\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-10-25 10:49:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ares_test'
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(588): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Views\home.php(12): CodeIgniter\Database\BaseConnection->query('SELECT * FROM ares_test')
+ 3 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1142): CodeIgniter\View\View->render('home', [], true)
+ 6 APPPATH\Controllers\Home.php(10): view('home', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(902): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

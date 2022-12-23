@@ -1,0 +1,10 @@
+CRITICAL - 2022-12-15 02:23:50 --> unlink(/Applications/MAMP/htdocs/writable/debugbar/debugbar_1671091233.824516.json): No such file or directory
+in SYSTEMPATH/Debug/Toolbar/Collectors/History.php on line 76.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/Applications/MAMP/htdocs/writable/debugbar/debugbar_1671091233.824516.json): No such file or directory', 'SYSTEMPATH/Debug/Toolbar/Collectors/History.php', 76)
+ 2 SYSTEMPATH/Debug/Toolbar/Collectors/History.php(76): unlink('FCPATH/writable/debugbar/debugbar_1671091233.824516.json')
+ 3 SYSTEMPATH/Debug/Toolbar.php(499): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1671092629.073975', 20)
+ 4 SYSTEMPATH/Debug/Toolbar.php(476): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH/Config/Events.php(46): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH/Events/Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH/CodeIgniter.php(317): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

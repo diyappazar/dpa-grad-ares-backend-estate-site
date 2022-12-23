@@ -1,0 +1,153 @@
+CRITICAL - 2022-11-21 02:02:14 --> Invalid file: index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FCPATH/index.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('index', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('index', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 02:02:30 --> Invalid file: index-two.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index-two.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('index-two', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('index-two', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 02:02:31 --> Invalid file: index-two.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index-two.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('index-two', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('index-two', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 02:02:31 --> Invalid file: index-two.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index-two.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('index-two', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('index-two', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 02:02:31 --> Invalid file: index-two.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index-two.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('index-two', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('index-two', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 02:02:32 --> Invalid file: index-two.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index-two.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('index-two', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('index-two', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 02:02:33 --> Invalid file: index-two.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index-two.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('index-two', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('index-two', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 02:06:54 --> Invalid file: index-two.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index-two.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('index-two', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('index-two', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 02:06:55 --> Invalid file: index-two.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index-two.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('index-two', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('index-two', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 02:06:55 --> Invalid file: index-two.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index-two.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('index-two', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('index-two', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 02:07:00 --> Invalid file: index-two.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index-two.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('index-two', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('index-two', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 02:24:02 --> Invalid file: index-two.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index-two.php')
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('index-two', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('index-two', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 02:33:47 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH/Views/Home.php on line 2.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('Home', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('Home', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 03:23:23 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH/Views/Home.php on line 2.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('Home', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('Home', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 03:23:24 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH/Views/Home.php on line 2.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('Home', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('Home', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 03:23:24 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH/Views/Home.php on line 2.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('Home', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('Home', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-21 03:23:36 --> syntax error, unexpected token "<", expecting end of file
+in APPPATH/Views/Home.php on line 2.
+ 1 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH/Common.php(1142): CodeIgniter\View\View->render('Home', [], true)
+ 3 APPPATH/Controllers/Home.php(10): view('Home', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
